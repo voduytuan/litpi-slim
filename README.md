@@ -12,3 +12,9 @@ This framework support multiple version base on group of controllers. You can br
 The Controller class name must be CamelCase (E.g: User, Product, Order...) and you need to add one mapping to classmap array (includes/classmap.php) for autoloading controller when in runtime.
 
 Put your models in Model and in namescape \Model for autoloading model class.
+
+## Bootstrap process ##
+All bootstrap process coded in /index.php includes:
+- Setup Database (using PDO MySQL, config in /includes/conf.php)
+- Setup $app object (instance of \Slim\Slim class)
+- Parsing route from .htaccess and get controller class to start.
