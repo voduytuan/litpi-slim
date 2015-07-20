@@ -18,3 +18,6 @@ All bootstrap process coded in /index.php includes:
 - Setup Database (using PDO MySQL, config in /includes/conf.php)
 - Setup $app object (instance of \Slim\Slim class)
 - Parsing route from .htaccess and get controller class to start.
+
+------
+Contact me at: tuanmaster2012 [at] gmail.com
