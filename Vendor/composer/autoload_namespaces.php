@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Slim' => array($vendorDir . '/slim/slim'),
+    'Litpi' => array($vendorDir . '/voduytuan/litpi-core/src'),
 );

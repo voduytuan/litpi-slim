@@ -1,0 +1,17 @@
+{
+    "name": "voduytuan/litpi-core",
+    "version": "1.0.0",
+    "description": "Litpi core classes used for Litpi framework and Litpi Slim framework",
+    "autoload": {
+        "psr-0": {
+            "Litpi": "src/"
+        }
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Vo Duy Tuan",
+            "email": "tuanmaster2012@gmail.com"
+        }
+    ]
+}

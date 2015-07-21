@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a9e2b793f8f7adba79b04f7686ff95c0",
+    "hash": "d173869859f5517f176d23b922a04d4e",
     "packages": [
         {
             "name": "slim/slim",
@@ -51,6 +51,39 @@
                 "router"
             ],
             "time": "2015-03-08 18:41:17"
+        },
+        {
+            "name": "voduytuan/litpi-core",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voduytuan/litpi-core.git",
+                "reference": "134edea21c7a2d7aa7879820fda151186d832e3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voduytuan/litpi-core/zipball/134edea21c7a2d7aa7879820fda151186d832e3f",
+                "reference": "134edea21c7a2d7aa7879820fda151186d832e3f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Litpi": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Vo Duy Tuan",
+                    "email": "tuanmaster2012@gmail.com"
+                }
+            ],
+            "description": "Litpi core classes used for Litpi framework and Litpi Slim framework",
+            "time": "2015-07-21 01:47:02"
         }
     ],
     "packages-dev": [],

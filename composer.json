@@ -1,6 +1,7 @@
 {
     "require": {
-        "slim/slim": "~2.0"
+        "slim/slim": "~2.0",
+        "voduytuan/litpi-core": "1.*"
     },
     "config" : {
         "vendor-dir" : "Vendor"

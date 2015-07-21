@@ -109,11 +109,11 @@ class Router
             return false;
         }
         $this->args = $args;
-
+        
         return true;
     }
 
-    public function getController(&$module, &$controller, &$action, &$args)
+    private function getController(&$module, &$controller, &$action, &$args)
     {
 
         $route = $this->registry->route;
