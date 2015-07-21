@@ -2,15 +2,22 @@
 
 namespace Controller\V1;
 
-class System extends \Controller\BaseController
+use \Controller\BaseController as BaseController;
+
+class System extends BaseController
 {
     public function run()
     {
-        $this->app->get('/v1/system', array($this, "get"));
-        $this->app->get('/v1/system/:key', array($this, "get"));
+        $this->app->get('/v1/system', function() {
+            $this->get();
+        });
+
+        $this->app->get('/v1/system/:key', function($key) {
+            $this->get($key);
+        });
     }
 
-    public function get($key = '')
+    private function get($key = '')
     {
         //Call model to get data
         $mySystem = new \Model\System();
